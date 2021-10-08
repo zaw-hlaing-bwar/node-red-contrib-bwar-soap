@@ -15,7 +15,7 @@
         "soap",
         "node-red",
         "node",
-        "ubraine"
+        "bwar"
     ],
     "node-red": {
         "nodes": {

@@ -1,0 +1,29 @@
+{
+    "name": "node-red-contrib-bwar-soap",
+    "version": "1.0.0",
+    "description": "SOAP Client for Node Red forked from node-red-contrib-ubraine-soap",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish": "npm publish"
+    },
+    "keywords": [
+        "soap",
+        "node-red",
+        "node",
+        "ubraine"
+    ],
+    "node-red": {
+        "nodes": {
+            "soap": "soap-node.js",
+            "soap-config": "soap-config.js"
+        }
+    },
+    "author": {
+        "name": "Bwar"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "soap": "^0.11.4"
+    }
+}

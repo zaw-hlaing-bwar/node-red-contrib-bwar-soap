@@ -7,6 +7,10 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "publish": "npm publish"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zaw-hlaing-bwar/node-red-contrib-bwar-soap.git"
+    },
     "keywords": [
         "soap",
         "node-red",
@@ -23,6 +27,10 @@
         "name": "Bwar"
     },
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zaw-hlaing-bwar/node-red-contrib-bwar-soap/issues"
+    },
+    "homepage": "https://github.com/zaw-hlaing-bwar/node-red-contrib-bwar-soap#readme",
     "dependencies": {
         "soap": "^0.11.4"
     }
